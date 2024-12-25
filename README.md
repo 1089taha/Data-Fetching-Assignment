@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+ # Server-Side and Client-Side Data Fetching Assignment
 
-## Getting Started
+This project showcases data fetching techniques using Next.js for both server-side rendering (SSR) and client-side rendering (CSR), leveraging two external APIs. The design is responsive, professional, and implemented with Tailwind CSS, ensuring a clean and modern user experience.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Home Page:**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A well-structured landing page introducing the assignment.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Includes a descriptive project overview with buttons to navigate to CSR and SSR pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Client-Side Rendering (CSR) Page:**
 
-## Learn More
+Fetches product data dynamically from the (https://fakestoreapi.com/products).
 
-To learn more about Next.js, take a look at the following resources:
+Displays a dynamic countdown timer for a New Year sale.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Features a responsive card-based grid layout with interactive buttons for each product.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Server-Side Rendering (SSR) Page:**
 
-## Deploy on Vercel
+Retrieves book data from the (https://simple-books-api.glitch.me/books/).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Presents data in a grid of well-designed cards with availability statuses.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Responsive Design:**
+
+Optimized for all screen sizes, from mobile to desktop.
+
+- **Reusable Components:**
+
+Includes a consistent Navbar and Footer for seamless navigation.
+
+
+## Technologies Used
+
+- **Framework:** [Next.js]
+
+- **Styling:** [Tailwind CSS]
+
+- **APIs:**
+
+-  (https://fakestoreapi.com/products).
+
+- (https://simple-books-api.glitch.me/books/).
+
+### Installation  
+
+1. Clone the repository:  
+   ```bash  
+   git clone https://github.com/your-username/ShopSphere.git  
+   cd ShopSphere  
+
+2. Install dependencies:
+  npm install  
+
+3. Run the development server:
+   npm run dev  
+
+4. Open http://localhost:3000 in your browser to see the website in action.
+
+##  Screenshots  
+
+![Home Page Screenshot](/public/Home.png)  
+![Product Listing Screenshot](/public/Client.png)  
+![Shopping Cart Screenshot](/public/Server.png)  
